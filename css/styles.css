@@ -492,6 +492,8 @@ a {
 .box-logo-footer {
   margin-right: 120px;
 }
+
+/* sadddddddddddddddd */
 .backdrop {
   position: fixed;
   display: flex;
@@ -512,7 +514,6 @@ a {
   pointer-events: initial;
 }
 .modal {
-  /* position: relative; */
   padding: 24px;
   width: 408px;
   min-height: 584px;
@@ -522,9 +523,6 @@ a {
     0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
 }
 .modal-btn {
-  /* position: absolute;
-  top: 24px;
-  right: 24px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -536,8 +534,6 @@ a {
   background-color: #e7e9fc;
   margin-left: auto;
   margin-bottom: 24px;
-
-  /* stroke-width: 1px; */
   stroke: rgba(0, 0, 0, 0.1);
 }
 .modal-btn:active {
