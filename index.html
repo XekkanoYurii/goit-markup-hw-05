@@ -533,7 +533,21 @@
             </svg>
           </div>
         </form>
-        <form class="modal-form" name="modal">
+
+        <div class="form-wrapper">
+          <label class="form-label textarea" for="user-messahe"
+            >Comment
+            <textarea
+              class="form-message"
+              name="Comment"
+              id="user-messahe"
+              rows="7"
+              placeholder="Text input">
+            </textarea>
+          </label>
+        </div>
+
+        <!-- <form class="modal-form" name="modal">
           <label class="form-label" for="user_comment">Comment</label>
           <div class="form-filed">
             <input
@@ -543,14 +557,14 @@
               id="user_comment"
               placeholder="Text input" />
           </div>
-        </form>
-        <input type="checkbox" />
-        <p class="">
+        </form> -->
+        <input class="input-chekbox" type="checkbox" />
+        <p class="accept">
           I accept the terms and conditions of the
-          <span class="">Privacy Policy</span>
+          <span class="accept-policy">Privacy Policy</span>
         </p>
 
-        <button type="submit">Send</button>
+        <button class="send-btn" type="submit">Send</button>
       </div>
     </div>
   </body>
