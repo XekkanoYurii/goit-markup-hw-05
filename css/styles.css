@@ -519,12 +519,9 @@ a {
 .subscribe-form-input {
   padding: 8px 16px;
   color: #fff;
-
   font-size: 12px;
-
   line-height: 24px; /* 200% */
   letter-spacing: 0.48px;
-
   background-color: transparent;
   outline: transparent;
   width: 264px;
@@ -537,10 +534,13 @@ a {
   color: currentColor;
 }
 .subscribe-form-btn {
+  height: 40px;
+  min-width: 165px;
   border-radius: 4px;
   background: #4d5ae5;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 16px;
   padding: 8px 24px;
   color: #fff;
@@ -551,8 +551,11 @@ a {
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
+  cursor: pointer;
+  border: none;
 }
 .subscribe-form-icon {
+  margin-left: 16px;
 }
 /* sadddddddddddddddd */
 .backdrop {
@@ -663,7 +666,6 @@ a {
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   outline: transparent;
-  /* color: rgba(46, 47, 66, 0.4); */
   font-size: 12px;
 
   line-height: 14px;
@@ -678,7 +680,6 @@ a {
 }
 
 .input-chekbox {
-  /* margin-bottom: 24px; */
   width: 16px;
   height: 16px;
   flex-shrink: 0;
@@ -688,8 +689,6 @@ a {
 .accept {
   margin-left: 8px;
   color: #8e8f99;
-
-  /* Small Text */
   font-family: Roboto;
   font-size: 12px;
   font-style: normal;
@@ -699,8 +698,6 @@ a {
 }
 .accept-policy {
   color: #4d5ae5;
-
-  /* Link Text */
   font-family: Roboto;
   font-size: 12px;
   font-style: normal;
@@ -710,10 +707,11 @@ a {
   text-decoration-line: underline;
 }
 .send-btn {
-  margin-top: 24px;
-  width: 169px;
-  color: #fff;
   display: block;
+  height: 56px;
+  width: 169px;
+  margin-top: 24px;
+  color: #fff;
   margin-left: auto;
   margin-right: auto;
   padding: 16px 32px;
@@ -746,8 +744,7 @@ a {
   margin-right: auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } */
-.send-btn:hover,
-.send-btn:focus {
+.send-btn:hover {
   background-color: #404bbf;
   cursor: pointer;
 }
