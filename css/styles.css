@@ -697,10 +697,6 @@ a {
   line-height: 14px; /* 116.667% */
   letter-spacing: 0.48px;
 }
-.accept-policy:focus,
-.accept-policy:hover {
-  background-color: #4d5ae5;
-}
 .accept-policy {
   color: #4d5ae5;
 
