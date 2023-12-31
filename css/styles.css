@@ -618,13 +618,14 @@ a {
 .modal-btn:focus {
   background-color: #404bbf;
   border: none;
-}
-.modal-btn:active {
-  background-color: #404bbf;
   fill: #ffffff;
 }
-.modal-btn-icon:hover,
-.modal-btn-icon:focus {
+/* .modal-btn:active {
+  background-color: #404bbf;
+  fill: #ffffff;
+} */
+.modal-btn-icon {
+  background-color: #404bbf;
   fill: #ffffff;
 }
 .modal-btn-icon {
