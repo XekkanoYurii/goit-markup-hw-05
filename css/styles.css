@@ -649,9 +649,12 @@ a {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
 }
 .modal-form {
+}
+.form-modal-div {
+  margin-bottom: 8px;
 }
 .form-label {
   display: block;
@@ -659,7 +662,7 @@ a {
   color: #8e8f99;
   font-size: 12px;
   line-height: 1.16; /* 116.667% */
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
 }
 .form-filed {
   position: relative;
