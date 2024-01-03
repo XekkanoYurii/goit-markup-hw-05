@@ -746,7 +746,11 @@ a {
 .send-btn {
   display: block;
   height: 56px;
-  width: 169px;
+  min-width: 169px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
   margin-top: 24px;
   color: #fff;
   margin-left: auto;
@@ -758,6 +762,7 @@ a {
   border-radius: 4px;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form {
   display: flex;
