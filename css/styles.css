@@ -682,6 +682,7 @@ a {
   border-color: #4d5ae5;
 }
 .form-icon {
+  padding-bottom: 8px;
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
