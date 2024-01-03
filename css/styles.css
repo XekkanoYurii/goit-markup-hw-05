@@ -709,6 +709,7 @@ a {
 }
 /* ...................... */
 .form {
+  margin-bottom: 24px;
 }
 .form-agreement {
   display: block;
@@ -756,9 +757,7 @@ a {
   text-decoration-line: underline;
 }
 
-/* .form {
-  margin-bottom: 24px;
-}
+/* 
 .form-agreement {
   width: 16px;
   height: 16px;
