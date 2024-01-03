@@ -686,10 +686,13 @@ a {
 .form-label .textarea {
   margin-bottom: 8px;
 }
+.form-wrapper {
+  margin-bottom: 16px;
+}
 .form-message {
   padding: 8px 16px;
   margin-top: 8px;
-  margin-bottom: 16px;
+
   width: 100%;
   max-height: 120px;
   resize: none;
