@@ -718,7 +718,8 @@ a {
   font-size: 12px;
 
   line-height: 1.17; /* 116.667% */
-  letter-spacing: 0.05em;
+
+  letter-spacing: 0.04em;
 }
 .input-checkbox {
 }
