@@ -683,9 +683,6 @@ a {
 .form-input:focus + .form-icon {
   fill: #4d5ae5;
 }
-/* .form-label {
-  margin-bottom: 8px;
-} */
 .form-wrapper {
   margin-bottom: 16px;
 }
@@ -711,6 +708,14 @@ a {
   border-color: #4d5ae5;
 }
 /* ...................... */
+.form {
+  margin-bottom: 24px;
+}
+.label-chek {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+}
 .input-chekbox {
   width: 16px;
   height: 16px;
