@@ -687,8 +687,9 @@ a {
   margin-bottom: 8px;
 }
 .form-message {
+  padding: 8px 16px;
   margin-top: 8px;
-  padding-left: 16px;
+  margin-bottom: 16px;
   width: 100%;
   max-height: 120px;
   resize: none;
@@ -696,10 +697,11 @@ a {
   border: 1px solid rgba(46, 47, 66, 0.4);
   outline: transparent;
   font-size: 12px;
-
-  line-height: 14px;
+  color: rgba(46, 47, 66, 0.4);
+  background-color: transparent;
+  line-height: 1.17;
   letter-spacing: 0.48px;
-  transition: border-color 300ms ease-in;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-message::placeholder {
   color: rgba(46, 47, 66, 0.4);
