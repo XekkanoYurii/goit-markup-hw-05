@@ -782,3 +782,6 @@ a {
   background-color: #404bbf;
   cursor: pointer;
 }
+.input-checkbox:focus + .form-agreement > .form-agreement-checkbox {
+  border-color: transparent;
+}
