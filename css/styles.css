@@ -541,7 +541,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
+
   padding: 8px 24px;
   color: #fff;
   text-align: center;
@@ -554,7 +554,9 @@ a {
   cursor: pointer;
   border: none;
 }
-
+.subscribe-form-icon {
+  margin-left: 16px;
+}
 /* backdrop */
 .backdrop {
   position: fixed;
